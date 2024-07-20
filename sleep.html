@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calm</title> 
+    <script defer src="js/app.js"></script>
+    <script defer src="/js/modal.js"></script>
+    <script defer src="/js/slider.js"></script>
+    <script defer src="/js/inter.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <section class="modal modalhide">
+        <button class="close"><i class="fa-solid fa-xmark"></i></button>   
+    <div class="form">
+    <h2>Log into your account</h2>
+    <input type="text" name="" id="" placeholder="email is required" required>
+    <input type="password" placeholder="password is required">
+    <a href="#">forgot your password?</a>
+    </div>
+    <div class="line"><span></span><p>OR</p><span></span></div>
+    <div class="btns btnsshit">
+        <button class="facebook btnnss"><i class="fa-brands fa-facebook"></i>  <span>contenue with facebook</span> </button>
+        <button class="apple btnnss"><i class="fa-brands fa-apple"></i> <span>contenue with apple</span></button>
+        <button class="google btnnss"><i class="fa-brands fa-google"></i> <span>contenue with google</span></button>
+    </div>
+    <div class="footertt">
+        <p class="sign">By clicking Continue, you agree to our Terms and acknowledge that you have read our Privacy Policy, which explains how to opt out of offers and promos</p>
+      <p class="by">Don't have an account? <a href="#">sign up</a></p>
+    </div>
+    
+    </section>
+    <div class="overlay modalhide"></div>
+
+<header class="header headerr">
+    
+ <navbar class="nav navv">
+
+    <div class="logo"><img src="/img/Calm.com_logo.png" alt=""></div>
+    <ul class="list">
+        <li class="list__item"><a href="/index.html">home</a></li>
+        <li class="list__item"><a href="/sleep.html">sleep</a></li>
+        <li class="list__item"><a href="/anxiety.html">screening</a></li>
+        <li class="list__item"><a href="/buss.html">calm business</a></li>
+        <li class="list__item"><a href="/healh.html">calm health</a></li>
+        <li class="list__item"><a class="openmodal" href="#">log in</a></li>
+    </ul>
+
+    <div class="btn"><button>try calm for free</button></div>
+    <div class="ham">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+</nav>
+</header>
+<main>
+    <section class="sleep sectionh">
+     <div class="box box1">
+        <h2>Sleep Stories, sleep meditations, music and soundscapes for your dreamiest sleep yet</h2>
+        <p>Join millions of sound sleepers worldwide. Fall asleep easily and naturally with our Sleep Stories, sleep meditations, exclusive sleep music and sleep sounds. With hundreds of titles to choose from, you'll be drifting off to dreamland in no time. Just press play and drift away.
+
+        </p>
+        <button>sleep better for free</button>
+     </div>
+     <div class="box box2"><img src="/img/dadd.avif" alt=""></div>
+    </section>
+    <secton class="video sectionh">
+        <div class="video__title"><h1>Meet your instructor: Chibs Okereke</h1></div>
+      <div class="video__vid">
+        
+        <video class="" width="" height="" controls >
+
+            <source type="video/mp4" src="/img/chibs-instructor-preview.mp4">
+            Your browser does not support the video tag.
+        </video>
+      </div>
+    </secton>
+    <section class="tab sectionh">
+        <h1 class="tab__title">The easiest way to get deep sleep.</h1>
+        <div class="tab-btntabcontainer">
+            <button class="tab-btntabcontainer__btn  tabbtnactive" data-tabtn="sleep">sleep stories</button>
+            <button class="tab-btntabcontainer__btn " data-tabtn="med">sleep meditations</button>
+            <button class="tab-btntabcontainer__btn " data-tabtn="music">music</button>
+            <button class="tab-btntabcontainer__btn " data-tabtn="sound">soundscapes</button>
+            <button class="tab-btntabcontainer__btn " data-tabtn="track"> sleep tracking</button>
+            <button class="tab-btntabcontainer__btn " data-tabtn="kids">for kids</button>
+        </div>
+         <div class="contentcontainer">
+        
+
+            <div class="contentcontainer-content contentactive" id="sleep">
+                <div class="contentcontainer-content__details">
+                    <h3>A bit of guidance to help you drift off</h3>
+                    <p>Pick a dreamy voice, and they'll take it from there. Calm's Sleep
+                         Meditations work with mindfulness tools and 
+                        themes, like body scans, gratitude, and progressive muscle relaxation.</p>
+                   <span>free sample</span>
+                   <h5>Narrated by Chibs Okereke</h5>
+                   <audio controls>
+                    <source src="/img/sleep.mp3" type="audio/ogg">
+                  Your browser does not support the audio element.
+                  </audio>
+                </div>
+                <div class="img"><img src="/img/tap1.webp" alt=""></div>
+            </div>
+
+
+            <div class="contentcontainer-content " id="med">
+                <div class="contentcontainer-content__details">
+                    <h3>A bit of guidance to help you drift off</h3>
+                    <p>Pick a dreamy voice, and they'll take it from there. Calm's Sleep
+                         Meditations work with mindfulness tools and 
+                        themes, like body scans, gratitude, and progressive muscle relaxation.</p>
+                   <span>free sample</span>
+                   <h5>Narrated by Chibs Okereke</h5>
+                   <audio controls>
+                    <source src="/img/med.mp3" type="audio/ogg">
+                  Your browser does not support the audio element.
+                  </audio>
+                </div>
+                <div class="img"><img src="/img/tap2.webp" alt=""></div>
+            </div>
+
+            <div class="contentcontainer-content " id="music">
+                <div class="contentcontainer-content__details">
+                    <h3>Soothing melodies designed for sleep</h3>
+                    <p>Calm Music puts relaxation at your fingertips. Explore a 
+                        universe of soothing sounds and genres, including celebrated artists like Moses Sumney and Tom Middleton.</p>
+                   <span>free sample</span>
+                   <h5>432 Hz for Sleep</h5>
+                   <audio controls>
+                    <source src="/img/music.m4a" type="audio/ogg">
+                  Your browser does not support the audio element.
+                  </audio>
+                </div>
+                <div class="img"><img src="/img/tap4.webp" alt=""></div>
+            </div>
+
+            <div class="contentcontainer-content " id="sound">
+                <div class="contentcontainer-content__details">
+                    <h3>A sonic pathway to dreamland</h3>
+                    <p>Calm has curated the most soothing sounds on Earth. Explore a different nature scene every night, and try 
+                        our popular white noise, green noise, and brown noise soundscapes.</p>
+                   <span>free sample</span>
+                   <h5>Rain on Leaves</h5>
+                   <audio controls>
+                    <source src="/img/music.m4a" type="audio/ogg">
+                  Your browser does not support the audio element.
+                  </audio>
+                </div>
+                <div class="img"><img src="/img/tap4.webp" alt=""></div>
+            </div>
+
+            <div class="contentcontainer-content " id="track">
+                <div class="contentcontainer-content__details">
+                    <h3>A toolkit to get your sleep on track</h3>
+                    <p>Our sleep tracking tools make it easy to build the habits of healthy sleep. Log your nightly hours, monitor your sleep quality, and create a bedtime routine that works for you.</p>
+                  
+                  
+                </div>
+                <div class="img"><img src="/img/tap5.webp" alt=""></div>
+            </div>
+            <div class="contentcontainer-content " id="kids">
+                <div class="contentcontainer-content__details">
+                    <h3>Bedtime can be a blast</h3>
+                    <p>Getting your kids to bed will never be the same. Our Sleep Stories for kids feature characters your little ones will know and love, like Transformers, My Little Pony, Minions, and many more.</p>
+                   <span>free sample</span>
+                   <h5>Winnie the Pooh
+                </h5>
+                <h6>Narrated by Tom Hiddleston
+                    App image for For Kids</h6>
+                   <audio controls>
+                    <source src="/img/music.m4a" type="audio/ogg">
+                  Your browser does not support the audio element.
+                  </audio>
+                </div>
+                <div class="img"><img src="/img/tap6.webp" alt=""></div>
+            </div>
+
+
+        </div>
+
+
+         
+           
+    </section>
+    <section class="purp sectionh">
+   <div class="purp-details">
+    <h1>Just press play and drift away.</h1>
+    <p>Our 300+ Sleep Stories, sleep meditations, and calming music will guide you off to sleep quickly and naturally..</p>
+    <button>unlock more free content</button>
+   </div>
+   <div class="purp-backgroundimg"></div>
+    </section>
+
+    <section class="slider">
+        <h1>Join the millions of sound sleepers worldwide.</h1>
+        <div class="slidercontainer">
+            <div class="card">
+                <h3>When I cannot fall asleep, I turn on this app and am out within 5 minutes.</h3>
+                <p>Brandy from Houston</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <h3>I have a very busy brain and can find it hard to unwind. Now a daily practice is actually so wonderful and healing for me.</h3>
+                <p>John from Chicago</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <h3>Calm has changed my life in immeasurable ways. I am more resilient and feel so much more connected to myself.</h3>
+                <p>Allison from San Jose</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <h3>Whenever I need to unwind from a stressful work day I meditate with Calm's soundscapes and it automatically sends me to my happy place.</h3>
+                <p>Jasmine from Bend</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <h3>Calm cuts through my stress, anxiety, irregular sleep schedule and brings me to deep sleep. I usually fall asleep within 5 minutes.</h3>
+                <p>Mathieu from New Orleans</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <h3>I have tried other meditation and gratitude apps, but this one has everything and the best teachers.</h3>
+                <p>Jen from Scarsdale</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <h3>My wife and I have listened to Calm for well over 2 years. Cannot express how easy it is to fall asleep listening to this app.</h3>
+                <p>Aaron from Louisville</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <h3>Medication isn't for me, so I decided to give Calm a try. Now I begin and end every day with guided meditations.</h3>
+                <p>Tracy from Newark</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+           
+        </div>
+        <div class="btns">
+            <button class="left"><i class="fa-solid fa-chevron-left"></i></button>
+            <button class="right"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </section>
+    <section class="waves">
+        <h1>
+            Start your free trial of Calm Premium.</h1>
+            <div class="waves-form">
+                <div class="waves-form__box">
+                    <div class="waves-form__box__one">
+                        <p>yearly</p>
+                        <p>49,99</p>
+                    </div>
+                    <div class="waves-form__box__two">
+                        <button class="top">15 day free trailer</button>
+                        <p>4.17 / mo</p>
+                    </div>
+                </div>
+                <p>After your free trial, the yearly subscription is 49,99 € and automatically renews each year until cancelled. <a href="#">terms</a> | <a href="#">Cancel anytime</a></p>
+                <button class="btn">continue</button>
+            </div>
+    </section>
+
+
+    <section class="faq sectionh">
+        <h1>Frequently Asked Questions</h1>
+      <div class="faq-box">
+        <h3>GENERAL</h3>
+        <div class="faq-box__text">
+            <p class="faq-box__text__title" >What is Calm?</p> 
+            <p class="faq-box__text__btn" ><i class="fa-solid fa-chevron-down"></i> </p>
+        </div>
+        <div class="faq-box__text__content content"><p>
+            Calm is the #1 mental health app designed to help you manage stress, sleep better, and live a happier, healthier life. Our research-based tools help you build life-changing habits to support your mental health. If you're having trouble falling asleep, our 250+ Sleep Stories®, soundscapes, and guided sleep meditations can lull you to sleep. If you're spiraling in negative thoughts and need immediate relief, our 60-second Breathe Bubble grounds you in the moment and helps your body return to a state of relaxation. If you're overwhelmed at work and need a breather, our stress and burnout specialists can guide you through exercises to help calm your
+             mind. We're here for you whenever or wherever you need us with more content and tools being added monthly.
+        </p>
+    </div>
+      </div>
+      <div class="faq-box">
+      <div class="faq-box__text">
+        <p class="faq-box__text__title" >What's included in a Calm subscription?</p> 
+        <p class="faq-box__text__btn" ><i class="fa-solid fa-chevron-down"></i> </p>
+    </div>
+    <div class="faq-box__text__content content"><p>
+        A Calm subscription unlocks our full library of meditations, Sleep Stories, music, and other features. The subscription includes:
+    </p>
+    <ul>
+        <li>Multiple original daily offerings from a range of teachers to give your day a dose of wisdom, gratitude and encouragement</li>
+    <li>Hours of guided meditations covering sleep, anxiety, stress, gratitude, and much more</li>
+    <li>Our entire library of more than 250+ Sleep Stories, with new stories added every week</li>
+    <li>Exclusive music tracks for focus, relaxation, and sleep</li>
+    </ul>
+    </div>
+    </div>
+    <div class="faq-box">
+    <div class="faq-box__text">
+        <p class="faq-box__text__title" > Where should I get started once I download the app?</p> 
+        <p class="faq-box__text__btn" ><i class="fa-solid fa-chevron-down"></i> </p>
+    </div>
+    <div class="faq-box__text__content content"><p>
+        If you have come to Calm to learn relaxation techniques and improve aspects of your mental health, we recommend beginning with the 7 Days of Calm, our introductory program that offers the basics of meditation, and then move on to the 21 Days of Calm. With that foundation, you can explore our library of sessions and programs, which address themes such as anxiety, sleep, focus, and gratitude. Additionally, for moments of acute stress or anxiety, we offer in-the-moment calming exercises via our Panic SOS, Body Scan, and breathing exercise features.
+    </p>
+    <p>If you have come to Calm to improve your sleep, we have a collection of over 250 Sleep Stories to help you drift off to restful sleep, ranging from classic literature to nature essays, children's tales, scientific articles, and more. We update our Sleep Stories selection with new options to listen to every week. We also have a collection of soothing Sleep Music.</p>
+    </div>
+    </div>
+    <div class="faq-box">
+    <div class="faq-box__text">
+        <p class="faq-box__text__title" >What is Calm?</p> 
+        <p class="faq-box__text__btn" ><i class="fa-solid fa-chevron-down"></i> </p>
+    </div>
+    <div class="faq-box__text__content content"><p>
+        Calm is the #1 mental health app designed to help you manage stress, sleep better, and live a happier, healthier life. Our research-based tools help you build life-changing habits to support your mental health. If you're having trouble falling asleep, our 250+ Sleep Stories®, soundscapes, and guided sleep meditations can lull you to sleep. If you're spiraling in negative thoughts and need immediate relief, our 60-second Breathe Bubble grounds you in the moment and helps your body return to a state of relaxation. If you're overwhelmed at work and need a breather, our stress and burnout specialists can guide you through exercises to help calm your
+         mind. We're here for you whenever or wherever you need us with more content and tools being added monthly.
+    </p></div>
+    </div>
+    </section>
+     </main>
+     <footer class="footer sectionh">
+      <div class="footer-container">
+        <div class="footer-container__item">
+            <h3>company</h3>
+            <ul>
+                <li>about</li>
+                <li>careers</li>
+                <li>press</li>
+                <li>blog</li>
+                <li>meet our instructor</li>
+                <li>calm science</li>
+            </ul>
+        </div>
+        <div class="footer-container__item">
+          <h3>offers</h3>
+          <ul>
+            <li>buy a gift</li>
+            <liredeem a gift></li>
+            <li>family plan</li>
+            <li>calm health</li>
+            <li>calm business</li>
+          </ul>
+        </div>
+        <div class="footer-container__item">
+            <h3>help</h3>
+            <ul>
+            <li>FAQ</li>
+            <li>contact us</li>
+            <li>terms</li>
+            <li>privacy policy</li>
+            <li>CCPA notice</li>
+            <li>Opt out of targeted ads</li>
+            <li>coockies</li>
+            <li>accessibility</li>
+            </ul>
+        </div>
+        <div class="footer-container__item">
+            <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+      </div>
+    
+      <p  class="current">Copyright © <span class="current-year"></span> Calm. All rights reserved.</p>
+     </footer>
+
+</main>
+</body>
+</html>
